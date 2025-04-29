@@ -1,0 +1,45 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: red;
+    font-size: 60px;
+}
+
+.body {
+    background: linear-gradient(red, blue, black);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.information {
+    font-size: 32px;
+    color: white;
+}
+
+.image {
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text {
+    color: red;
+    font-size: 20px;
+}
